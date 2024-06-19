@@ -10,3 +10,9 @@ D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\Infrastr
 D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\refint\Infrastructure.dll
 D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\Infrastructure.pdb
 D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\ref\Infrastructure.dll
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\bin\Debug\net7.0\Infrastructure.runtimeconfig.json
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\bin\Debug\net7.0\Domain.dll
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\bin\Debug\net7.0\Domain.pdb
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\Infrastr.15EFFBFE.Up2Date
+D:\Programming\CSharp\DS_Prueba_Tecnica\Infrastructure\obj\Debug\net7.0\Infrastructure.genruntimeconfig.cache
