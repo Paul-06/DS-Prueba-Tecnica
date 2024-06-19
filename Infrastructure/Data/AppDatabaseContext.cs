@@ -24,6 +24,7 @@ namespace Infrastructure.Data
             modelBuilder.Entity<Usuario>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Username)
                 .IsRequired()
@@ -37,6 +38,7 @@ namespace Infrastructure.Data
             modelBuilder.Entity<Post>(entity =>
             {
                 entity.HasKey(e => e.Id);
+                entity.Property(e => e.Id).ValueGeneratedOnAdd();
 
                 entity.Property(e => e.Contenido)
                 .IsRequired()
@@ -58,14 +60,14 @@ namespace Infrastructure.Data
                 entity.HasKey(us => new { us.IdSeguidor, us.IdSeguido });
 
                 entity.HasOne(us => us.Seguidor)
-                .WithMany(s => s.SeguidorRelationList)
-                .HasForeignKey(us => us.IdSeguidor)
-                .OnDelete(DeleteBehavior.Restrict);
+                    .WithMany(u => u.Seguidos)
+                    .HasForeignKey(us => us.IdSeguidor)
+                    .OnDelete(DeleteBehavior.Restrict);
 
                 entity.HasOne(us => us.Seguido)
-                .WithMany(s => s.SeguidorRelationList)
-                .HasForeignKey(us => us.IdSeguido)
-                .OnDelete(DeleteBehavior.Restrict);
+                    .WithMany(u => u.Seguidores)
+                    .HasForeignKey(us => us.IdSeguido)
+                    .OnDelete(DeleteBehavior.Restrict);
             });
         }
     }
