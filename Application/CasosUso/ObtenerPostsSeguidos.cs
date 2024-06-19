@@ -6,20 +6,29 @@ namespace Application.CasosUso
     public class ObtenerPostsSeguidos
     {
         // Atributos para inyeccion
+        private readonly IUsuarioRepositorio _usuarioRepositorio;
         private readonly IUsuarioSeguidoRepositorio _usuarioSeguidoRepositorio;
         private readonly IPostRepositorio _postRepositorio;
 
         // Constructor
-        public ObtenerPostsSeguidos(IUsuarioSeguidoRepositorio usuarioSeguidoRepositorio, IPostRepositorio postRepositorio)
+        public ObtenerPostsSeguidos(IUsuarioRepositorio usuarioRepositorio, IUsuarioSeguidoRepositorio usuarioSeguidoRepositorio, IPostRepositorio postRepositorio)
         {
+            _usuarioRepositorio = usuarioRepositorio;
             _usuarioSeguidoRepositorio = usuarioSeguidoRepositorio;
             _postRepositorio = postRepositorio;
         }
 
         // Metodos
-        public IEnumerable<Post> Ejecutar(int usuarioId)
+        public IEnumerable<Post> Ejecutar(string username)
         {
-            var seguidores = _usuarioSeguidoRepositorio.ObtenerSeguidores(usuarioId);
+            var usuario = _usuarioRepositorio.ObtenerUsuarioPorUsername(username);
+
+            if (usuario is null)
+            {
+                throw new Exception("Usuario no encontrado");
+            }
+
+            var seguidores = _usuarioSeguidoRepositorio.ObtenerSeguidores(usuario.Id);
 
             var posts = new List<Post>();
 
