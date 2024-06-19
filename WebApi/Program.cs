@@ -1,3 +1,4 @@
+using Application.CasosUso;
 using Domain.Repositorios;
 using Infrastructure.Data;
 using Infrastructure.Repositorios;
@@ -18,7 +19,13 @@ builder.Services.AddDbContext<AppDatabaseContext>(opt =>
     opt.UseSqlite(builder.Configuration.GetConnectionString("SqliteDatabase"));
 });
 
-// Configuramos nuestros demas servicios
+// Configuramos nuestros casos de uso
+builder.Services.AddScoped<CrearPost>();
+builder.Services.AddScoped<DejarSeguirUsuario>();
+builder.Services.AddScoped<SeguirUsuario>();
+builder.Services.AddScoped<ObtenerPostsSeguidos>();
+
+// Configuramos nuestros repositorios
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
 builder.Services.AddScoped<IPostRepositorio, PostRepositorio>();
 builder.Services.AddScoped<IUsuarioSeguidoRepositorio, UsuarioSeguidoRepositorio>();
@@ -42,5 +49,27 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
+
+using (var ambiente = app.Services.CreateScope())
+{
+    var services = ambiente.ServiceProvider;
+
+    try
+    {
+        // Instanciamos context (parametro de LoadDatabase)
+        var context = services.GetRequiredService<AppDatabaseContext>();
+
+        // Creamos la BD
+        await context.Database.MigrateAsync(); // MigrateAsync() se encarga de aplicar las migraciones pendientes
+
+        // Hacemos la insercion de la data de prueba
+        await LoadDatabase.InsertarData(context);
+    }
+    catch (Exception ex)
+    {
+        var logging = services.GetRequiredService<ILogger<Program>>();
+        logging.LogError(ex, "Ocurrió un error en la inserción de datos.");
+    }
+}
 
 app.Run();
