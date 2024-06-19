@@ -1,7 +1,40 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|solutionrelative:webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\infrastructure\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositorios\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\infrastructure\\repositorios\\postrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositorios\\postrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\domain\\repositorios\\iusuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|solutionrelative:domain\\repositorios\\iusuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\infrastructure\\repositorios\\usuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositorios\\usuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\domain\\entidades\\usuarioseguido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|solutionrelative:domain\\entidades\\usuarioseguido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\infrastructure\\data\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\data\\appdatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|solutionrelative:webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +42,115 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UsuarioRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioRepositorio.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositorios\\UsuarioRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioRepositorio.cs",
+              "RelativeToolTip": "Infrastructure\\Repositorios\\UsuarioRepositorio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:36:39.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UsuarioSeguido.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Entidades\\UsuarioSeguido.cs",
+              "RelativeDocumentMoniker": "Domain\\Entidades\\UsuarioSeguido.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Entidades\\UsuarioSeguido.cs",
+              "RelativeToolTip": "Domain\\Entidades\\UsuarioSeguido.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:29:12.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUsuarioSeguidoRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "RelativeToolTip": "Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:25:31.376Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuarioSeguidoRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "RelativeToolTip": "Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABEAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:25:44.643Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PostRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\PostRepositorio.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositorios\\PostRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\PostRepositorio.cs",
+              "RelativeToolTip": "Infrastructure\\Repositorios\\PostRepositorio.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABEAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:16:35.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\Program.cs",
+              "RelativeDocumentMoniker": "WebApi\\Program.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\Program.cs",
+              "RelativeToolTip": "WebApi\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T05:08:14.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "WebApi\\appsettings.json",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\appsettings.json",
+              "RelativeToolTip": "WebApi\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-06-19T04:43:46.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AppDatabaseContext.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Data\\AppDatabaseContext.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDatabaseContext.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Data\\AppDatabaseContext.cs",
+              "RelativeToolTip": "Infrastructure\\Data\\AppDatabaseContext.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAA3wBYAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-19T00:34:29.114Z",
+              "EditorCaption": ""
             }
           ]
         }

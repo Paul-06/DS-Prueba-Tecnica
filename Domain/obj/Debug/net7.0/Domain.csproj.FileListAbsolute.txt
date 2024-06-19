@@ -1,0 +1,12 @@
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\bin\Debug\net7.0\Domain.deps.json
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\bin\Debug\net7.0\Domain.dll
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\bin\Debug\net7.0\Domain.pdb
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.AssemblyInfoInputs.cache
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.AssemblyInfo.cs
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.csproj.CoreCompileInputs.cache
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.sourcelink.json
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.dll
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\refint\Domain.dll
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\Domain.pdb
+D:\Programming\CSharp\DS_Prueba_Tecnica\Domain\obj\Debug\net7.0\ref\Domain.dll
