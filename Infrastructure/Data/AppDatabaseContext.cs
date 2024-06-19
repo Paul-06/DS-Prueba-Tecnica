@@ -19,8 +19,54 @@ namespace Infrastructure.Data
         {
             base.OnModelCreating(modelBuilder);
 
-            // Aquí agregare configuraciones adicionales para
-            // el tema de following
+            // Configuraciones para las entidades en la base de datos
+            // Usuario
+            modelBuilder.Entity<Usuario>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Username)
+                .IsRequired()
+                .HasMaxLength(100);
+
+                entity.Property(e => e.FechaCreacion)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+            });
+
+            // Post
+            modelBuilder.Entity<Post>(entity =>
+            {
+                entity.HasKey(e => e.Id);
+
+                entity.Property(e => e.Contenido)
+                .IsRequired()
+                .HasMaxLength(280); // Limite actual de caracteres por Tweet
+
+                entity.Property(e => e.FechaPublicacion)
+                .HasDefaultValueSql("CURRENT_TIMESTAMP");
+
+                // Relacion
+                entity.HasOne(e => e.Usuario)
+                .WithMany(u => u.PostRelationList)
+                .HasForeignKey(e => e.IdUsuario)
+                .OnDelete(DeleteBehavior.Cascade);
+            });
+
+            // UsuarioSeguido (N:N)
+            modelBuilder.Entity<UsuarioSeguido>(entity =>
+            {
+                entity.HasKey(us => new { us.IdSeguidor, us.IdSeguido });
+
+                entity.HasOne(us => us.Seguidor)
+                .WithMany(s => s.SeguidorRelationList)
+                .HasForeignKey(us => us.IdSeguidor)
+                .OnDelete(DeleteBehavior.Restrict);
+
+                entity.HasOne(us => us.Seguido)
+                .WithMany(s => s.SeguidorRelationList)
+                .HasForeignKey(us => us.IdSeguido)
+                .OnDelete(DeleteBehavior.Restrict);
+            });
         }
     }
 }
