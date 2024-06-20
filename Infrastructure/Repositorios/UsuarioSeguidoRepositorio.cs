@@ -1,6 +1,7 @@
 ﻿using Domain.Entidades;
 using Domain.Repositorios;
 using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositorios
 {
@@ -46,11 +47,11 @@ namespace Infrastructure.Repositorios
                 .Any(s => s.IdSeguidor == idSeguidor && s.IdSeguido == idSeguido);
         }
 
-        public IEnumerable<Usuario> ObtenerSeguidores(int idUsuario)
+        public IEnumerable<int> ObtenerSeguidosId(int idSeguidor)
         {
             return _context.UsuarioSeguidos
-                .Where(s => s.IdSeguidor == idUsuario)
-                .Select(s => s.Seguido)
+                .Where(us => us.IdSeguidor == idSeguidor)
+                .Select(us => us.IdSeguidor)
                 .ToList();
         }
     }
