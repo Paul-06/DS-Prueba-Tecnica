@@ -7,6 +7,6 @@ namespace Domain.Repositorios
         void AgregarSeguidor(int idSeguidor, int idSeguido);
         void EliminarSeguidor(int idSeguidor, int idSeguido);
         bool EsSeguidor(int idSeguidor, int idSeguido);
-        IEnumerable<Usuario> ObtenerSeguidores(int idUsuario);
+        IEnumerable<int> ObtenerSeguidosId(int idSeguidor);
     }
 }
