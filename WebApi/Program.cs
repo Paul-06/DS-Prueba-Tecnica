@@ -24,6 +24,7 @@ builder.Services.AddScoped<CrearPost>();
 builder.Services.AddScoped<DejarSeguirUsuario>();
 builder.Services.AddScoped<SeguirUsuario>();
 builder.Services.AddScoped<ObtenerPostsSeguidos>();
+builder.Services.AddScoped<ObtenerPostsDeUsuario>();
 
 // Configuramos nuestros repositorios
 builder.Services.AddScoped<IUsuarioRepositorio, UsuarioRepositorio>();
