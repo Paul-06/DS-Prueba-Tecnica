@@ -51,7 +51,7 @@ namespace Infrastructure.Repositorios
         {
             return _context.UsuarioSeguidos
                 .Where(us => us.IdSeguidor == idSeguidor)
-                .Select(us => us.IdSeguidor)
+                .Select(us => us.IdSeguido)
                 .ToList();
         }
     }
