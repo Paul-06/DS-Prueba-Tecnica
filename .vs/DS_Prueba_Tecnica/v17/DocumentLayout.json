@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\application\\casosuso\\seguirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|solutionrelative:application\\casosuso\\seguirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\domain\\repositorios\\ipostrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|solutionrelative:domain\\repositorios\\ipostrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\application\\casosuso\\obtenerpostsseguidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|solutionrelative:application\\casosuso\\obtenerpostsseguidos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\application\\casosuso\\dejarseguirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|solutionrelative:application\\casosuso\\dejarseguirusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\webapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF579FB6-B370-414E-B278-9E0990AA62DC}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\application\\casosuso\\crearpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31796605-6BE7-4CF5-A28B-11E39EDD390E}|Application\\Application.csproj|solutionrelative:application\\casosuso\\crearpost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\infrastructure\\repositorios\\usuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36757B91-1684-43CD-99FA-BCA0ED344DF8}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositorios\\usuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|d:\\programming\\csharp\\ds_prueba_tecnica\\domain\\repositorios\\iusuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55937C21-6A70-4E2F-8717-A749C0530B35}|Domain\\Domain.csproj|solutionrelative:domain\\repositorios\\iusuarioseguidorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,20 +30,48 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "SeguirUsuario.cs",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\SeguirUsuario.cs",
-              "RelativeDocumentMoniker": "Application\\CasosUso\\SeguirUsuario.cs",
-              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\SeguirUsuario.cs",
-              "RelativeToolTip": "Application\\CasosUso\\SeguirUsuario.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Title": "IPostRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IPostRepositorio.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositorios\\IPostRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IPostRepositorio.cs",
+              "RelativeToolTip": "Domain\\Repositorios\\IPostRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:08:31.784Z",
+              "WhenOpened": "2024-06-20T01:30:59.932Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IUsuarioSeguidoRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "RelativeDocumentMoniker": "Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "RelativeToolTip": "Domain\\Repositorios\\IUsuarioSeguidoRepositorio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T00:58:25.927Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioSeguidoRepositorio.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "RelativeToolTip": "Infrastructure\\Repositorios\\UsuarioSeguidoRepositorio.cs",
+              "ViewState": "AQIAAC4AAAAAAAAAAAAkwDIAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-20T00:55:11.257Z"
             },
             {
               "$type": "Document",
@@ -49,40 +81,22 @@
               "RelativeDocumentMoniker": "Application\\CasosUso\\ObtenerPostsSeguidos.cs",
               "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\ObtenerPostsSeguidos.cs",
               "RelativeToolTip": "Application\\CasosUso\\ObtenerPostsSeguidos.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAQwDAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:08:30.339Z",
+              "WhenOpened": "2024-06-20T00:52:06.267Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "DejarSeguirUsuario.cs",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\DejarSeguirUsuario.cs",
-              "RelativeDocumentMoniker": "Application\\CasosUso\\DejarSeguirUsuario.cs",
-              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\DejarSeguirUsuario.cs",
-              "RelativeToolTip": "Application\\CasosUso\\DejarSeguirUsuario.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\PostController.cs",
+              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\WebApi\\Controllers\\PostController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\PostController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAewA0AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:08:28.658Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CrearPost.cs",
-              "DocumentMoniker": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\CrearPost.cs",
-              "RelativeDocumentMoniker": "Application\\CasosUso\\CrearPost.cs",
-              "ToolTip": "D:\\Programming\\CSharp\\DS_Prueba_Tecnica\\Application\\CasosUso\\CrearPost.cs",
-              "RelativeToolTip": "Application\\CasosUso\\CrearPost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-19T22:08:27.071Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-20T00:51:19.069Z"
             }
           ]
         }
