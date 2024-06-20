@@ -1,6 +1,7 @@
 ﻿using Domain.Entidades;
 using Domain.Repositorios;
 using Infrastructure.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace Infrastructure.Repositorios
 {
@@ -24,7 +25,10 @@ namespace Infrastructure.Repositorios
 
         public IEnumerable<Post> ObtenerPostsPorUsuarioId(int idUsuario)
         {
-            return _context.Posts.Where(p => p.IdUsuario == idUsuario).ToList();
+            return _context.Posts
+            .Where(p => p.IdUsuario == idUsuario)
+            .Include(p => p.Usuario)
+            .ToList();
         }
     }
 }
