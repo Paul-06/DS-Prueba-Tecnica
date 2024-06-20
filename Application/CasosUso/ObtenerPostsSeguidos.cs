@@ -1,4 +1,5 @@
-﻿using Domain.Entidades;
+﻿using Application.Dtos;
+using Domain.Entidades;
 using Domain.Repositorios;
 
 namespace Application.CasosUso
@@ -19,7 +20,7 @@ namespace Application.CasosUso
         }
 
         // Metodos
-        public IEnumerable<Post> Ejecutar(string username)
+        public IEnumerable<PostDto> Ejecutar(string username)
         {
             var usuario = _usuarioRepositorio.ObtenerUsuarioPorUsername(username);
 
@@ -28,13 +29,22 @@ namespace Application.CasosUso
                 throw new Exception("Usuario no encontrado");
             }
 
-            var seguidores = _usuarioSeguidoRepositorio.ObtenerSeguidores(usuario.Id);
+            var seguidosId = _usuarioSeguidoRepositorio.ObtenerSeguidosId(usuario.Id);
 
-            var posts = new List<Post>();
+            var posts = new List<PostDto>();
 
-            foreach (var seguidor in seguidores)
+            foreach (var id in seguidosId)
             {
-                posts.AddRange(_postRepositorio.ObtenerPostsPorUsuarioId(seguidor.Id));
+                var postsDeSeguido = _postRepositorio.ObtenerPostsPorUsuarioId(id);
+                foreach (var post in postsDeSeguido)
+                {
+                    posts.Add(new PostDto
+                    {
+                        Contenido = post.Contenido,
+                        Username = post.Usuario.Username, // Agregar el username del seguido
+                        FechaPublicacion = post.FechaPublicacion
+                    });
+                }
             }
 
             return posts.OrderByDescending(p => p.FechaPublicacion);
