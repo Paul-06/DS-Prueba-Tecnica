@@ -35,7 +35,22 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Agregamos el servicio CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("PermitirOrigenesExternos",
+        builder =>
+        {
+            builder.AllowAnyOrigin()
+            .AllowAnyHeader()
+            .AllowAnyMethod();
+        });
+});
+
 var app = builder.Build();
+
+// Usamos la politica CORS configurada
+app.UseCors("PermitirOrigenesExternos");
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
