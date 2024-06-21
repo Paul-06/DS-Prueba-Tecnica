@@ -28,6 +28,9 @@ namespace Infrastructure.Repositorios
             _context.SaveChanges();
         }
 
+        public IEnumerable<Usuario> ObtenerDemasUsuarios(string username)
+            => _context.Usuarios.Where(u => u.Username != username).ToList();
+
         public Usuario ObtenerUsuarioPorId(int id) 
             => _context.Usuarios.Find(id);
 
