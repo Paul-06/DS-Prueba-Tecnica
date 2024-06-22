@@ -30,7 +30,7 @@ Para abrir el archivo de la base de datos (SocialApp.db), se recomienda utilizar
 3. Escribe `SQLite: Open Database` y selecciona la opción correspondiente.
 4. Selecciona el archivo de la base de datos (en este caso, SocialApp.db).
 5. Se abrirá la base de datos en esta sección:
-   ![Base de datos abierta](https://onedrive.live.com/embed?resid=182AAB43E4CB067F%216190&authkey=%21AEZHswwSnccjyPA&width=497&height=290)
+![Base de datos abierta](https://onedrive.live.com/embed?resid=182AAB43E4CB067F%216190&authkey=%21AEZHswwSnccjyPA&width=497&height=290)
 
 ## Frontend
 La parte frontend del proyecto ha sido desarrollada con Flutter. Puedes encontrar el repositorio del frontend en el siguiente enlace:
